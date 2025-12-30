@@ -51,7 +51,7 @@ export function HeroSection() {
             <div className="flex items-center gap-4 pt-4">
               <span className="text-[var(--portfolio-text-muted)] text-sm">BE:</span>
               <a
-                href="https://www.behance.net"
+                href="https://www.behance.net/ernestolazaro1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--portfolio-text-secondary)] hover:text-[var(--portfolio-blue-primary)] transition-colors"
@@ -61,7 +61,7 @@ export function HeroSection() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/ernesto-lazaro/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--portfolio-text-secondary)] hover:text-[var(--portfolio-blue-primary)] transition-colors"

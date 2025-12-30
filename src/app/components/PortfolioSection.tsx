@@ -1,24 +1,27 @@
+import image_23edc61b227cf1c26b2bba46200005c2837bafe9 from 'figma:asset/23edc61b227cf1c26b2bba46200005c2837bafe9.png';
+import image_143eacea212c0129e9c3f06340093b8093f06f7b from 'figma:asset/143eacea212c0129e9c3f06340093b8093f06f7b.png';
+import image_34e81ddd289cf5864ad561395494af2e546b1a9e from 'figma:asset/34e81ddd289cf5864ad561395494af2e546b1a9e.png';
 import { ExternalLink } from 'lucide-react';
 
 export function PortfolioSection() {
   const projects = [
     {
-      title: 'Electrosound App',
-      category: 'UI/UX Design',
-      image: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjB1aSUyMGRlc2lnbnxlbnwxfHx8fDE3NjcxMTQyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '#'
-    },
-    {
-      title: 'El Locazo de los Dioses',
-      category: 'E-commerce',
-      image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc2NzAyOTg0N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '#'
-    },
-    {
       title: 'Platzi Messages',
       category: 'Chat Interface',
-      image: 'https://images.unsplash.com/photo-1763810021881-49b45b0717d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGF0JTIwaW50ZXJmYWNlJTIwbWVzc2FnaW5nfGVufDF8fHx8MTc2NzExNDIzOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '#'
+      image: image_23edc61b227cf1c26b2bba46200005c2837bafe9,
+      link: 'https://www.behance.net/gallery/120904329/Reto-Platzi-Master'
+    },
+    {
+      title: 'Electrosound App',
+      category: 'Retail',
+      image: image_34e81ddd289cf5864ad561395494af2e546b1a9e,
+      link: 'https://www.behance.net/gallery/158172957/Electrosound-App'
+    },
+    {
+      title: 'Mercado Renovable',
+      category: 'E-commerce',
+      image: image_143eacea212c0129e9c3f06340093b8093f06f7b,
+      link: 'https://www.behance.net/gallery/148775089/Redux-Energy-Mercado-Renovable'
     }
   ];
 

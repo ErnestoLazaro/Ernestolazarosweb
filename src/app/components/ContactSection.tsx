@@ -23,7 +23,7 @@ export function ContactSection() {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-8 mt-12 pt-8 border-t border-[var(--portfolio-navy-light)]">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/ernesto-lazaro/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[var(--portfolio-text-secondary)] hover:text-[var(--portfolio-blue-primary)] transition-colors"
@@ -34,7 +34,7 @@ export function ContactSection() {
             LinkedIn
           </a>
           <a
-            href="https://www.behance.net"
+            href="https://www.behance.net/ernestolazaro1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[var(--portfolio-text-secondary)] hover:text-[var(--portfolio-blue-primary)] transition-colors"
