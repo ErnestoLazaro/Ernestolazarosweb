@@ -1,5 +1,7 @@
+import image_8d872f12ea9741361ad982c31fa76442d9adc8eb from 'figma:asset/8d872f12ea9741361ad982c31fa76442d9adc8eb.png';
 import image_cdbf46178ea2d5345171aef0fd65f04e5e481247 from 'figma:asset/cdbf46178ea2d5345171aef0fd65f04e5e481247.png';
 import profileImage from 'figma:asset/5ccd15c1839f54a30ff7e3f45788fba272dfaa03.png';
+import aboutSectionImage from 'figma:asset/8d872f12ea9741361ad982c31fa76442d9adc8eb.png';
 
 export function AboutSection() {
   const certifications = [
@@ -27,7 +29,7 @@ export function AboutSection() {
           <div className="flex justify-center lg:justify-start">
             <div className="w-64 h-64 rounded-2xl overflow-hidden border-2 border-[var(--portfolio-navy-light)] bg-[var(--portfolio-navy-light)]">
               <img
-                src={image_cdbf46178ea2d5345171aef0fd65f04e5e481247}
+                src={aboutSectionImage}
                 alt="Ernesto Lázaro Guerrero"
                 className="w-full h-full object-cover"
               />
