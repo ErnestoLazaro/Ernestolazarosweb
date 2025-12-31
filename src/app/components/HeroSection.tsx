@@ -22,7 +22,7 @@ export function HeroSection() {
                 Ernesto Lázaro Guerrero
               </h1>
               <p className="text-2xl sm:text-3xl text-[var(--portfolio-blue-primary)]">
-                Diseñador UI/UX
+                Ingeniero de Soporte CTC | Diseñador UX/UI
               </p>
             </div>
 
@@ -49,7 +49,7 @@ export function HeroSection() {
 
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-4">
-              <span className="text-[var(--portfolio-text-muted)] text-sm">BE:</span>
+              <span className="text-[var(--portfolio-text-muted)] text-sm">ELG</span>
               <a
                 href="https://www.behance.net/ernestolazaro1"
                 target="_blank"
