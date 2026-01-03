@@ -22,12 +22,12 @@ export function HeroSection() {
                 Ernesto Lázaro Guerrero
               </h1>
               <p className="text-2xl sm:text-3xl text-[var(--portfolio-blue-primary)]">
-                Ingeniero de Soporte CTC | Diseñador UX/UI
+                Ingeniero | Diseñador UX/UI
               </p>
             </div>
 
             <p className="text-[var(--portfolio-text-secondary)] text-lg max-w-xl">
-              Diseño experiencias digitales funcionales y centradas en el usuario.
+              Ingeniero y Diseñador UI/UX, con enfoque en el usuario y base tecnológica, especializado en transformar ideas complejas en experiencias digitales claras y funcionales.
             </p>
 
             {/* CTA Buttons */}

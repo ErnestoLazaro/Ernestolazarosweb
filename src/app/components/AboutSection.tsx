@@ -12,9 +12,15 @@ export function AboutSection() {
       color: 'var(--portfolio-blue-primary)'
     },
     {
-      name: 'Platzi UX/UI',
+      name: 'Carrera Platzi UX/UI',
       type: 'Diploma',
       icon: '📚',
+      color: 'var(--portfolio-blue-primary)'
+    },
+        {
+      name: 'AWS Cloud Practituiner',
+      type: 'Certified',
+      icon: '☁️',
       color: 'var(--portfolio-blue-primary)'
     }
   ];
@@ -40,10 +46,12 @@ export function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-[var(--portfolio-text-secondary)] text-lg leading-relaxed">
-                Soy un diseñador UI/UX con background en tecnología.
+                La tecnología ha sido el motor que ha guiado cada etapa de mi camino profesional.
               </p>
               <p className="text-[var(--portfolio-text-secondary)] text-lg leading-relaxed">
-                Apasionado por crear interfaces centradas en el usuario y accesibles.
+                A través de la experiencia, el aprendizaje constante y la curiosidad por entender cómo interactúan las personas con los productos digitales, he transformado retos en oportunidades de crecimiento.
+El diseño UX/UI se convirtió en el punto donde mi pasión por la tecnología y mi vocación por crear soluciones útiles se encuentran.
+Hoy, cada proyecto representa la suma de ese recorrido y el compromiso de seguir evolucionando.
               </p>
             </div>
 

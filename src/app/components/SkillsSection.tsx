@@ -2,19 +2,19 @@ export function SkillsSection() {
   const skillCategories = [
     {
       title: 'Design Tools',
-      skills: ['Figma', 'Adobe XD', 'Sketch', 'Illustrator', 'Photoshop']
+      skills: ['Figma', 'Adobe XD', 'Miro', 'Adobe Suite']
     },
     {
       title: 'UX/UI',
-      skills: ['User Research', 'Wireframing', 'Prototyping', 'User Testing', 'Design Systems']
+      skills: ['User Research', 'Wireframing', 'Prototyping', 'User Testing', 'Design Systems', 'DesignThinking']
     },
     {
-      title: 'Development',
+      title: 'Desarrollo',
       skills: ['HTML/CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Responsive Design']
     },
     {
       title: 'Soft Skills',
-      skills: ['Communication', 'Team Collaboration', 'Problem Solving', 'Time Management', 'Adaptability']
+      skills: ['Comunicación', 'Trabajo en equipo', 'Aprendizaje continuó', 'Resolución de problemas', 'Adaptación']
     }
   ];
 
