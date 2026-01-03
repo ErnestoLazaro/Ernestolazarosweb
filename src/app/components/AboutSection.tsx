@@ -18,7 +18,7 @@ export function AboutSection() {
       color: 'var(--portfolio-blue-primary)'
     },
         {
-      name: 'AWS Cloud Practituiner',
+      name: 'AWS Certified Cloud Practitioner',
       type: 'Certified',
       icon: '☁️',
       color: 'var(--portfolio-blue-primary)'
