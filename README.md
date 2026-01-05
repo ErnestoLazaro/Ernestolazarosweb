@@ -153,7 +153,7 @@ This project is private and proprietary.
 ## 👤 Author
 
 **Ernesto Lázaro Guerrero**
-- Role: UI/UX Designer
+- Role: Ingeniero | Diseñador UX/UI
 - LinkedIn: [LinkedIn Profile](#)
 - Behance: [Behance Portfolio](#)
 
