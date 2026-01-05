@@ -46,12 +46,10 @@ export function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-[var(--portfolio-text-secondary)] text-lg leading-relaxed">
-                La tecnología ha sido el motor que ha guiado cada etapa de mi camino profesional.
+                La tecnología ha sido el motor que ha guiado cada etapa de mi camino profesional. Con 13 años de experiencia como Ingeniero de Soporte en sitios físicos ahora le doy pauta a un cambio de carrera en lo otro que me apasiona lo que es en el mundo del diseño. 
               </p>
               <p className="text-[var(--portfolio-text-secondary)] text-lg leading-relaxed">
-                A través de la experiencia, el aprendizaje constante y la curiosidad por entender cómo interactúan las personas con los productos digitales, he transformado retos en oportunidades de crecimiento.
-El diseño UX/UI se convirtió en el punto donde mi pasión por la tecnología y mi vocación por crear soluciones útiles se encuentran.
-Hoy, cada proyecto representa la suma de ese recorrido y el compromiso de seguir evolucionando.
+                Hoy, cada proyecto representa la suma de ese recorrido y el compromiso de seguir evolucionando.
               </p>
             </div>
 
