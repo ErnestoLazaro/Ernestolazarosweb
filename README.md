@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing)
+![Portfolio Preview]([https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing))
 
 **Portfolio profesional de diseño UI/UX con tema oscuro moderno**
 
