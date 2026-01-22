@@ -6,6 +6,8 @@ import image_83bec1e4593f666d9845bdc1ab4124305b91b7f7 from 'figma:asset/83bec1e4
 import image_144c61191f6810894749e47554b00ef20b6ad5b6 from 'figma:asset/144c61191f6810894749e47554b00ef20b6ad5b6.png';
 import image_e2b2d74c78a4cba2f97e4ac5b41a1677fa913bcc from 'figma:asset/e2b2d74c78a4cba2f97e4ac5b41a1677fa913bcc.png';
 import image_2a242cb28c3d2cbccfc18213ae4a527c748b7f18 from 'figma:asset/2a242cb28c3d2cbccfc18213ae4a527c748b7f18.png';
+import image_bcfb8fd68beebea35db5c989f191145e82e71dd5 from 'figma:asset/bcfb8fd68beebea35db5c989f191145e82e71dd5.png';
+import image_4aae47470f3f7a772da7f54c3a73a59848863074 from 'figma:asset/4aae47470f3f7a772da7f54c3a73a59848863074.png';
 import { ExternalLink } from 'lucide-react';
 
 export function PortfolioSection() {
@@ -19,13 +21,13 @@ export function PortfolioSection() {
     {
       title: 'Electrosound 2026',
       category: 'E-Commerce',
-      image: image_83bec1e4593f666d9845bdc1ab4124305b91b7f7,
+      image: image_bcfb8fd68beebea35db5c989f191145e82e71dd5,
       link: 'https://electrosound.figma.site/'
     },
     {
       title: 'Web Profesional',
       category: 'Landing Page',
-      image: image_144c61191f6810894749e47554b00ef20b6ad5b6,
+      image: image_4aae47470f3f7a772da7f54c3a73a59848863074,
       link: 'https://www.ernestolazaro.com.mx/'
     },
     {
