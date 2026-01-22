@@ -10,7 +10,7 @@ export function SkillsSection() {
     },
     {
       title: 'Desarrollo',
-      skills: ['HTML/CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Responsive Design']
+      skills: ['HTML/CSS', 'JavaScript', 'React', 'Tailwind CSS', 'AWS']
     },
     {
       title: 'Soft Skills',

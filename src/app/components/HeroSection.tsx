@@ -1,7 +1,7 @@
 import image_cdbf46178ea2d5345171aef0fd65f04e5e481247 from 'figma:asset/cdbf46178ea2d5345171aef0fd65f04e5e481247.png';
 import image_8bbc0d83a610da106433d8220493c9e84b4eb187 from 'figma:asset/8bbc0d83a610da106433d8220493c9e84b4eb187.png';
 import image_5ccd15c1839f54a30ff7e3f45788fba272dfaa03 from 'figma:asset/5ccd15c1839f54a30ff7e3f45788fba272dfaa03.png';
-import { Download, X } from 'lucide-react';
+import { Download, X, MessageCircle } from 'lucide-react';
 import profileImage from 'figma:asset/d1d051bc1013cbe40f6814b87c8bb68964b22141.png';
 import cvImage from 'figma:asset/c06cc6c4f5e7f9ac6fb2f8dbe0c16056e3d99b05.png';
 import { useState } from 'react';
@@ -70,13 +70,15 @@ export function HeroSection() {
               >
                 Ver Portafolio
               </a>
-              <button
-                onClick={() => setIsCVOpen(true)}
+              <a
+                href="https://wa.me/qr/MP3CDSPX6VIKF1"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 bg-transparent border border-[var(--portfolio-text-secondary)] hover:border-white text-white rounded-lg transition-all flex items-center gap-2"
               >
-                <Download size={18} />
-                Descargar CV
-              </button>
+                <MessageCircle size={18} />
+                WhatsApp
+              </a>
             </div>
 
             {/* Social Links - Enlaces a redes sociales con accesibilidad */}
