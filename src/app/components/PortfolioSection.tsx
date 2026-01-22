@@ -4,6 +4,8 @@ import image_34e81ddd289cf5864ad561395494af2e546b1a9e from 'figma:asset/34e81ddd
 import image_c8e9ed0324ffd44d956731c451204fed7aefec0c from 'figma:asset/c8e9ed0324ffd44d956731c451204fed7aefec0c.png';
 import image_83bec1e4593f666d9845bdc1ab4124305b91b7f7 from 'figma:asset/83bec1e4593f666d9845bdc1ab4124305b91b7f7.png';
 import image_144c61191f6810894749e47554b00ef20b6ad5b6 from 'figma:asset/144c61191f6810894749e47554b00ef20b6ad5b6.png';
+import image_e2b2d74c78a4cba2f97e4ac5b41a1677fa913bcc from 'figma:asset/e2b2d74c78a4cba2f97e4ac5b41a1677fa913bcc.png';
+import image_2a242cb28c3d2cbccfc18213ae4a527c748b7f18 from 'figma:asset/2a242cb28c3d2cbccfc18213ae4a527c748b7f18.png';
 import { ExternalLink } from 'lucide-react';
 
 export function PortfolioSection() {
@@ -11,7 +13,7 @@ export function PortfolioSection() {
     {
       title: 'Quiero mi Tamal app',
       category: 'Delivery',
-      image: image_c8e9ed0324ffd44d956731c451204fed7aefec0c,
+      image: image_2a242cb28c3d2cbccfc18213ae4a527c748b7f18,
       link: 'https://quieromitamalapp.figma.site/'
     },
     {
