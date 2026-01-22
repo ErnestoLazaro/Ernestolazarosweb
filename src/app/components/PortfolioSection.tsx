@@ -1,10 +1,31 @@
 import image_23edc61b227cf1c26b2bba46200005c2837bafe9 from 'figma:asset/23edc61b227cf1c26b2bba46200005c2837bafe9.png';
 import image_143eacea212c0129e9c3f06340093b8093f06f7b from 'figma:asset/143eacea212c0129e9c3f06340093b8093f06f7b.png';
 import image_34e81ddd289cf5864ad561395494af2e546b1a9e from 'figma:asset/34e81ddd289cf5864ad561395494af2e546b1a9e.png';
+import image_c8e9ed0324ffd44d956731c451204fed7aefec0c from 'figma:asset/c8e9ed0324ffd44d956731c451204fed7aefec0c.png';
+import image_83bec1e4593f666d9845bdc1ab4124305b91b7f7 from 'figma:asset/83bec1e4593f666d9845bdc1ab4124305b91b7f7.png';
+import image_144c61191f6810894749e47554b00ef20b6ad5b6 from 'figma:asset/144c61191f6810894749e47554b00ef20b6ad5b6.png';
 import { ExternalLink } from 'lucide-react';
 
 export function PortfolioSection() {
   const projects = [
+    {
+      title: 'Quiero mi Tamal app',
+      category: 'Delivery',
+      image: image_c8e9ed0324ffd44d956731c451204fed7aefec0c,
+      link: 'https://quieromitamalapp.figma.site/'
+    },
+    {
+      title: 'Electrosound 2026',
+      category: 'E-Commerce',
+      image: image_83bec1e4593f666d9845bdc1ab4124305b91b7f7,
+      link: 'https://electrosound.figma.site/'
+    },
+    {
+      title: 'Web Profesional',
+      category: 'Landing Page',
+      image: image_144c61191f6810894749e47554b00ef20b6ad5b6,
+      link: 'https://www.ernestolazaro.com.mx/'
+    },
     {
       title: 'Platzi Messages',
       category: 'Chat Interface',
