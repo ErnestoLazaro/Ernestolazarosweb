@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 /**
  * Componente Header - Navegación Principal
@@ -29,13 +30,32 @@ import { useState } from 'react';
  */
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const navItems = [
     { label: 'Sobre Mi', href: '#sobre-mi' },
     { label: 'Portafolio', href: '#portafolio' },
     { label: 'Habilidades', href: '#habilidades' },
+    { label: 'Blog', href: '#blog' },
     { label: 'Contacto', href: '#contacto' }
   ];
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+    
+    // Si estamos en una página de blog, navegar al home primero
+    if (location.pathname !== '/') {
+      navigate('/' + href);
+    } else {
+      // Si ya estamos en home, solo hacer scroll
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
 
   return (
     // Elemento semántico <header> para estructura clara
@@ -44,7 +64,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo - Enlace a inicio con texto descriptivo */}
           <a 
-            href="#" 
+            href="/" 
+            onClick={(e) => {
+              e.preventDefault();
+              navigate('/');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
             className="text-white text-xl font-semibold tracking-tight hover:text-[var(--portfolio-blue-primary)] transition-colors"
             aria-label="Inicio - Ernesto Lázaro Guerrero"
           >
@@ -60,6 +85,7 @@ export function Header() {
               <a
                 key={item.label}
                 href={item.href}
+                onClick={(e) => handleNavClick(e, item.href)}
                 className="text-[var(--portfolio-text-secondary)] hover:text-white transition-colors text-sm"
               >
                 {item.label}
@@ -88,7 +114,7 @@ export function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={(e) => handleNavClick(e, item.href)}
                 className="block text-[var(--portfolio-text-secondary)] hover:text-white transition-colors py-2"
               >
                 {item.label}

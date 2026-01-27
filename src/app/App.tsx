@@ -1,10 +1,62 @@
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { PortfolioSection } from './components/PortfolioSection';
 import { SkillsSection } from './components/SkillsSection';
+import { BlogSection } from './components/BlogSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { BlogPost } from './components/BlogPost';
+
+/**
+ * ScrollToSection - Componente para manejar el scroll a secciones
+ */
+function ScrollToSection() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else if (location.pathname === '/') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [location]);
+
+  return null;
+}
+
+/**
+ * HomePage - Página principal del portfolio
+ */
+function HomePage() {
+  return (
+    <>
+      <ScrollToSection />
+      <div className="min-h-screen bg-[var(--portfolio-navy-dark)]">
+        {/* Navegación principal - Landmark para lectores de pantalla */}
+        <Header />
+        
+        {/* Contenido principal - Landmark para lectores de pantalla */}
+        <main>
+          <HeroSection />
+          <AboutSection />
+          <PortfolioSection />
+          <SkillsSection />
+          <BlogSection />
+          <ContactSection />
+        </main>
+        
+        {/* Pie de página - Landmark para lectores de pantalla */}
+        <Footer />
+      </div>
+    </>
+  );
+}
 
 /**
  * Componente App - Aplicación Principal del Portfolio
@@ -42,29 +94,18 @@ import { Footer } from './components/Footer';
  * ESTRUCTURA DE LANDMARKS:
  * - <header> - Navegación principal
  * - <main> - Contenido principal de la aplicación
- * - <section> - Secciones individuales (Hero, About, Portfolio, Skills, Contact)
+ * - <section> - Secciones individuales (Hero, About, Portfolio, Skills, Blog, Contact)
  * - <footer> - Información de copyright
  * 
  * Para más información sobre accesibilidad, consultar /ACCESSIBILITY.md
  */
 export default function App() {
   return (
-    <div className="min-h-screen bg-[var(--portfolio-navy-dark)]">
-      {/* Navegación principal - Landmark para lectores de pantalla */}
-      <Header />
-   
-      
-      {/* Contenido principal - Landmark para lectores de pantalla */}
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <PortfolioSection />
-        <SkillsSection />
-        <ContactSection />
-      </main>
-      
-      {/* Pie de página - Landmark para lectores de pantalla */}
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
+      </Routes>
+    </Router>
   );
 }
