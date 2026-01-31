@@ -24,11 +24,11 @@ export function BlogSection() {
   const posts: BlogPost[] = [
     {
       id: '1',
-      title: 'El Futuro del Desarrollo Web en 2026',
-      description: 'Exploramos las tendencias y tecnologías que están transformando la forma en que construimos aplicaciones web modernas.',
-      image: 'https://images.unsplash.com/photo-1675495277087-10598bf7bcd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29kaW5nJTIwcHJvZ3JhbW1pbmd8ZW58MXx8fHwxNzY5NTQ4MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080',
-      date: '27 de Enero, 2026',
-      category: 'Desarrollo Web'
+      title: '🧠 Las 10 leyes principales del UX/UI (explicadas fácil)',
+      description: 'El diseño UX/UI no es solo estética: se basa en principios psicológicos que explican cómo las personas perciben, entienden y usan los productos digitales.',
+      image: 'https://images.unsplash.com/photo-1598668724808-d08ede183e5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1eCUyMHVpJTIwZGVzaWduJTIwcHJpbmNpcGxlcyUyMGxhd3N8ZW58MXx8fHwxNzY5ODkwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      date: '31 de Enero, 2026',
+      category: 'UX/UI Design'
     },
     {
       id: '2',
