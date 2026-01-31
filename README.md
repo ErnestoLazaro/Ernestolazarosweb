@@ -1,7 +1,6 @@
 # 🎨 Portfolio Ernesto Lázaro Guerrero
 
 <div align="center">
-![Uploading ErnestoLazaro_sinfondo.png…]()
 
 ![Portfolio Preview](https://drive.google.com/file/d/1aPdElbw_z4TmBLbC3n0OsMKD-fUliUaq/view?usp=sharing)
 

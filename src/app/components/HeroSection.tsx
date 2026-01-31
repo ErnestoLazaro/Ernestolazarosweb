@@ -59,7 +59,7 @@ export function HeroSection() {
             </div>
 
             <p className="text-[var(--portfolio-text-secondary)] text-lg max-w-xl">
-              Ingeniero y Diseñador UX/UI, con enfoque en el usuario y base tecnológica, especializado en transformar ideas complejas en experiencias digitales claras y funcionales.
+              Ingeniero con 13 años de experiencia en soporte técnico y operación de sistemas críticos, actualmente en transición profesional a Diseñador UX/UI
             </p>
 
             {/* CTA Buttons */}

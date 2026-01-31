@@ -29,9 +29,9 @@ export function PortfolioSection() {
     {
       title: 'Web Profesional',
       category: 'Landing Page',
-      description: 'Landing page personal diseñada para destacar servicios profesionales y proyectos destacados. Implementa diseño responsivo, animaciones sutiles y un enfoque en la conversión de visitantes mediante call-to-actions estratégicos y formulario de contacto directo.',
+      description: 'Landing page personal diseñada para destacar experiencia profesional y proyectos destacados. Implementa diseño responsivo, animaciones sutiles y un enfoque en la conversión de visitantes mediante call-to-actions estratégicos y formulario de contacto directo.',
       image: image_4aae47470f3f7a772da7f54c3a73a59848863074,
-      link: 'https://www.ernestolazaro.com.mx/'
+      link: 'https://www.figma.com/proto/4UGHGya41HgTRF305QfI7V/MVP_Ernesto_Lazaro?node-id=0-1&t=6ymlxkT71qo1srPi-1/'
     },
     {
       title: 'Platzi Messages',
