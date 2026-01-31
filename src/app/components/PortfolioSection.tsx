@@ -15,36 +15,42 @@ export function PortfolioSection() {
     {
       title: 'Quiero mi Tamal app',
       category: 'Delivery',
+      description: 'Aplicación de delivery diseñada para conectar a los amantes de los tamales con los mejores vendedores locales. Ofrece una experiencia de compra intuitiva con seguimiento en tiempo real del pedido y múltiples opciones de pago para facilitar la entrega a domicilio.',
       image: image_2a242cb28c3d2cbccfc18213ae4a527c748b7f18,
       link: 'https://quieromitamalapp.figma.site/'
     },
     {
       title: 'Electrosound 2026',
       category: 'E-Commerce',
+      description: 'Tienda en línea moderna especializada en equipos de audio profesional y dispositivos electrónicos. Integra un catálogo completo de productos con sistema de filtros avanzados, carrito de compras y proceso de checkout optimizado para conversión.',
       image: image_bcfb8fd68beebea35db5c989f191145e82e71dd5,
       link: 'https://electrosound.figma.site/'
     },
     {
       title: 'Web Profesional',
       category: 'Landing Page',
+      description: 'Landing page personal diseñada para destacar servicios profesionales y proyectos destacados. Implementa diseño responsivo, animaciones sutiles y un enfoque en la conversión de visitantes mediante call-to-actions estratégicos y formulario de contacto directo.',
       image: image_4aae47470f3f7a772da7f54c3a73a59848863074,
       link: 'https://www.ernestolazaro.com.mx/'
     },
     {
       title: 'Platzi Messages',
       category: 'Chat Interface',
+      description: 'Interfaz de mensajería instantánea desarrollada como parte del reto Platzi Master. Incluye sistema de chat en tiempo real, notificaciones push, gestión de conversaciones grupales e individuales, y diseño adaptado para múltiples dispositivos.',
       image: image_23edc61b227cf1c26b2bba46200005c2837bafe9,
       link: 'https://www.behance.net/gallery/120904329/Reto-Platzi-Master'
     },
     {
       title: 'Electrosound App',
       category: 'Retail',
+      description: 'Aplicación móvil de retail para consulta de productos electrónicos y equipos de audio. Ofrece búsqueda inteligente, comparación de productos, lista de deseos, y sistema de notificaciones para ofertas especiales y disponibilidad de artículos.',
       image: image_34e81ddd289cf5864ad561395494af2e546b1a9e,
       link: 'https://www.behance.net/gallery/158172957/Electrosound-App'
     },
     {
       title: 'Mercado Renovable',
       category: 'E-commerce',
+      description: 'Plataforma de e-commerce enfocada en productos de energía renovable y soluciones sustentables. Diseñada para educar a los usuarios sobre opciones ecológicas mientras facilita la compra de paneles solares, baterías y equipos de eficiencia energética.',
       image: image_143eacea212c0129e9c3f06340093b8093f06f7b,
       link: 'https://www.behance.net/gallery/148775089/Redux-Energy-Mercado-Renovable'
     }
@@ -75,8 +81,11 @@ export function PortfolioSection() {
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-[var(--portfolio-text-muted)] mb-4">
+                <p className="text-[var(--portfolio-text-muted)] text-sm mb-2">
                   {project.category}
+                </p>
+                <p className="text-[var(--portfolio-text-muted)] text-sm leading-relaxed mb-4">
+                  {project.description}
                 </p>
                 <a
                   href={project.link}
