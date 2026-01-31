@@ -1,3 +1,13 @@
+import image_5d466febd4dba0fb6222f51ff976bd47e6a2ff61 from 'figma:asset/5d466febd4dba0fb6222f51ff976bd47e6a2ff61.png';
+import image_71ed047809852584ec6d40c9bf6823c9d49a9729 from 'figma:asset/71ed047809852584ec6d40c9bf6823c9d49a9729.png';
+import image_30f483f12cf5abb6849ba86b6281a1609980fdb9 from 'figma:asset/30f483f12cf5abb6849ba86b6281a1609980fdb9.png';
+import image_800bae0f8994998cab9e03cd6184c37523753bfd from 'figma:asset/800bae0f8994998cab9e03cd6184c37523753bfd.png';
+import image_c16ca4316e7ec234c9fc4c01d6d7171cdc331fd8 from 'figma:asset/c16ca4316e7ec234c9fc4c01d6d7171cdc331fd8.png';
+import image_aebf991f8e629f326c1b6a3749f41eeb61cb7a7e from 'figma:asset/aebf991f8e629f326c1b6a3749f41eeb61cb7a7e.png';
+import image_74a5cfd7368443b2c9bd975d4940e492cf79782f from 'figma:asset/74a5cfd7368443b2c9bd975d4940e492cf79782f.png';
+import image_f5c59f060f6918a0d6dcc8a553ab3af9dca1c653 from 'figma:asset/f5c59f060f6918a0d6dcc8a553ab3af9dca1c653.png';
+import image_ee7e85ff8b03b8f909ad9d02afa4f7bcd73d965d from 'figma:asset/ee7e85ff8b03b8f909ad9d02afa4f7bcd73d965d.png';
+import image_a347cfea8a808e05e0979bd5b8c861e8b3fa6331 from 'figma:asset/a347cfea8a808e05e0979bd5b8c861e8b3fa6331.png';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Tag, Facebook, Linkedin, Share2 } from 'lucide-react';
 
@@ -75,7 +85,7 @@ export function BlogPost() {
           description: '👉 Mientras más opciones tiene un usuario, más tiempo tarda en decidir.',
           inUXUI: 'Reduce opciones innecesarias. Menús simples, CTAs claros y jerarquía visual ayudan a que el usuario no se sienta abrumado.',
           example: 'Ejemplo: Un botón principal ("Comprar ahora") funciona mejor que cinco botones compitiendo entre sí.',
-          image: 'https://images.unsplash.com/photo-1589216532372-1c2a367900d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1eCUyMHVpJTIwZGVzaWduJTIwaGlja3MlMjBsYXd8ZW58MXx8fHwxNzY5ODkwMzcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_a347cfea8a808e05e0979bd5b8c861e8b3fa6331
         },
         {
           number: '2️⃣',
@@ -83,7 +93,7 @@ export function BlogPost() {
           description: '👉 Cuanto más grande y cercano es un elemento, más fácil es interactuar con él.',
           inUXUI: 'Botones grandes, bien espaciados y accesibles (especialmente en mobile).',
           example: 'Ejemplo: El botón de "Enviar" debe ser más grande y visible que un link secundario.',
-          image: 'https://images.unsplash.com/photo-1528747008803-f9f5cc8f1a64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXR0cyUyMGxhdyUyMGludGVyYWN0aW9uJTIwZGVzaWdufGVufDF8fHx8MTc2OTg5MDM3Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_ee7e85ff8b03b8f909ad9d02afa4f7bcd73d965d
         },
         {
           number: '3️⃣',
@@ -91,7 +101,7 @@ export function BlogPost() {
           description: '👉 Los usuarios prefieren interfaces que ya conocen.',
           inUXUI: 'No reinventes la rueda. Usa patrones comunes: menú arriba, logo a la izquierda, carrito en la esquina superior derecha.',
           example: 'Ejemplo: Un e-commerce debe comportarse como otros e-commerce.',
-          image: 'https://images.unsplash.com/photo-1717501217778-367e9cdb0e03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1c2VyJTIwaW50ZXJmYWNlJTIwcGF0dGVybnMlMjBjb25zaXN0ZW5jeXxlbnwxfHx8fDE3Njk4OTAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_f5c59f060f6918a0d6dcc8a553ab3af9dca1c653
         },
         {
           number: '4️⃣',
@@ -99,7 +109,7 @@ export function BlogPost() {
           description: '👉 Las personas solo pueden retener entre 5 y 9 elementos a la vez.',
           inUXUI: 'Divide la información en bloques pequeños (chunking).',
           example: 'Ejemplo: Listas cortas, formularios por pasos y secciones bien separadas.',
-          image: 'https://images.unsplash.com/photo-1653213096268-d232d07c4f82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2duaXRpdmUlMjBsb2FkJTIwbWVtb3J5JTIwaW5mb3JtYXRpb258ZW58MXx8fHwxNzY5ODkwMzc5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_74a5cfd7368443b2c9bd975d4940e492cf79782f
         },
         {
           number: '5️⃣',
@@ -107,7 +117,7 @@ export function BlogPost() {
           description: '👉 Todo sistema tiene una complejidad mínima inevitable.',
           inUXUI: 'El trabajo del diseñador es absorber la complejidad, no pasársela al usuario.',
           example: 'Ejemplo: Automatizar procesos en lugar de pedirle todo al usuario.',
-          image: 'https://images.unsplash.com/photo-1727522974735-44251dfe61b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXNsZXIlMjBsYXclMjBjb21wbGV4aXR5JTIwZGVzaWdufGVufDF8fHx8MTc2OTg5MDM3NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_aebf991f8e629f326c1b6a3749f41eeb61cb7a7e
         },
         {
           number: '6️⃣',
@@ -115,7 +125,7 @@ export function BlogPost() {
           description: '👉 Sé flexible con lo que recibes y claro con lo que entregas.',
           inUXUI: 'Los sistemas deben tolerar errores humanos.',
           example: 'Ejemplo: Aceptar formatos distintos de fecha o corregir errores de escritura automáticamente.',
-          image: 'https://images.unsplash.com/photo-1617609277590-ec2d145ca13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlcnJvciUyMHRvbGVyYW5jZSUyMGZsZXhpYmxlJTIwaW5wdXR8ZW58MXx8fHwxNzY5ODkwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_c16ca4316e7ec234c9fc4c01d6d7171cdc331fd8
         },
         {
           number: '7️⃣',
@@ -123,7 +133,7 @@ export function BlogPost() {
           description: '👉 El 80% del uso viene del 20% de las funciones.',
           inUXUI: 'Prioriza lo que más usan los usuarios.',
           example: 'Ejemplo: Destacar funciones clave y ocultar opciones avanzadas.',
-          image: 'https://images.unsplash.com/photo-1634325846582-aa16f3294a30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXJldG8lMjBwcmluY2lwbGUlMjA4MCUyMDIwJTIwcnVsZXxlbnwxfHx8fDE3Njk4OTAzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_800bae0f8994998cab9e03cd6184c37523753bfd
         },
         {
           number: '8️⃣',
@@ -131,7 +141,7 @@ export function BlogPost() {
           description: '👉 Elementos cercanos se perciben como relacionados.',
           inUXUI: 'Agrupa visualmente lo que pertenece a lo mismo.',
           example: 'Ejemplo: Campos de formulario alineados y separados por secciones claras.',
-          image: 'https://images.unsplash.com/photo-1555602998-aaead0450f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXN1YWwlMjBncm91cGluZyUyMHByb3hpbWl0eSUyMHNwYWNpbmd8ZW58MXx8fHwxNzY5ODkwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_30f483f12cf5abb6849ba86b6281a1609980fdb9
         },
         {
           number: '9️⃣',
@@ -139,7 +149,7 @@ export function BlogPost() {
           description: '👉 Elementos similares se entienden como parte del mismo grupo.',
           inUXUI: 'Mantén consistencia en colores, botones e íconos.',
           example: 'Ejemplo: Todos los botones primarios deben verse igual.',
-          image: 'https://images.unsplash.com/photo-1761434558042-5374764b865b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zaXN0ZW50JTIwZGVzaWduJTIwcGF0dGVybnMlMjBlbGVtZW50c3xlbnwxfHx8fDE3Njk4OTAzODF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_71ed047809852584ec6d40c9bf6823c9d49a9729
         },
         {
           number: '🔟',
@@ -147,7 +157,7 @@ export function BlogPost() {
           description: '👉 Las personas perciben primero las formas más simples.',
           inUXUI: 'Menos es más. Claridad antes que decoración.',
           example: 'Ejemplo: Diseños limpios, con buen uso de espacios en blanco.',
-          image: 'https://images.unsplash.com/photo-1761830476467-0ff86dbcc75d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXNtJTIwc2ltcGxpY2l0eSUyMGNsZWFuJTIwZGVzaWdufGVufDF8fHx8MTc2OTg5MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+          image: image_5d466febd4dba0fb6222f51ff976bd47e6a2ff61
         }
       ],
       conclusion: [
@@ -286,7 +296,7 @@ export function BlogPost() {
                 {law.example}
               </p>
             </div>
-            <div className="aspect-[16/9] rounded-xl overflow-hidden border border-[var(--portfolio-navy-light)] mb-8">
+            <div className="aspect-[16/9] rounded-xl overflow-hidden border border-[var(--portfolio-navy-light)] mb-8 p-[0px] mx-[0px] my-[12px]">
               <img
                 src={law.image}
                 alt={law.title}
